@@ -83,3 +83,56 @@ input[type=text], input[type=password] {
 </form>
 </div>
 </html>
+
+
+
+
+
+
+
+
+
+<form action="action_page.php">
+	<div class="container">
+    	<h1> Register Here! </h1>
+        <p> Fill in the form below to create an account.</p>
+        <hr>
+        
+		<label for="email"><b>Email:</b></label>
+        <input type="text" placeholder="Email here"name="email" id="email" required>
+        
+        <label for="psw"><b>Password:</b></label>
+        <input type="password" placeholder="Password Here" name="psw" id="psw" required>
+        
+        <label for="psw-repeat"><b>Re-Enter Password:</b></label>
+        <input type="password" placeholder="Re-enter password Here"name="psw-repeat" id="psw-repeat" required>
+        <hr>
+        
+        <button type="submit" class="registerbtn">Register Now!</button>
+       </div>
+       
+       <div class="container signin">
+       	<p> Already have an account? <a href="#">Sign in</a>.</p>
+       </div>
+       
+       
+       <style> 
+       .registerbtn {
+       background-color: #59CD62;
+       color: black;
+       width: 50%;
+       padding: 12px 16px;
+      }
+      a {
+      color: blue;
+      }
+      .container {
+      padding:16px;
+     }
+     input[type=text], input[type=password] {
+     width: 100%;
+     padding: 16px;
+     margin: 5px 0 22px 0;
+    }
+    
+      </form>
