@@ -98,25 +98,25 @@ input[type=text], input[type=password] {
         <p> Fill in the form below to create an account.</p>
         <hr>
         
-		<label for="email"><b>Email:</b></label>
+   <label for="email"><b>Email:</b></label>
         <input type="text" placeholder="Email here"name="email" id="email" required>
         
-        <label for="psw"><b>Password:</b></label>
+   <label for="psw"><b>Password:</b></label>
         <input type="password" placeholder="Password Here" name="psw" id="psw" required>
         
-        <label for="psw-repeat"><b>Re-Enter Password:</b></label>
+   <label for="psw-repeat"><b>Re-Enter Password:</b></label>
         <input type="password" placeholder="Re-enter password Here"name="psw-repeat" id="psw-repeat" required>
         <hr>
         
-        <button type="submit" class="registerbtn">Register Now!</button>
+   <button type="submit" class="registerbtn">Register Now!</button>
        </div>
        
-       <div class="container signin">
+   <div class="container signin">
        	<p> Already have an account? <a href="#">Sign in</a>.</p>
        </div>
        
        
-       <style> 
+   <style> 
        .registerbtn {
        background-color: #59CD62;
        color: black;
@@ -134,5 +134,5 @@ input[type=text], input[type=password] {
      padding: 16px;
      margin: 5px 0 22px 0;
     }
-    
+    </style>
       </form>
